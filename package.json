@@ -1,6 +1,6 @@
 {
   "name": "hash-filename",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Simon Lydell",
   "license": "GPLv3",
   "description": "A command line tool that puts the hash of a file into its filename.",
