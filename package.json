@@ -1,0 +1,36 @@
+{
+  "name": "hash-filename",
+  "version": "1.0.0",
+  "author": "Simon Lydell",
+  "license": "GPLv3",
+  "description": "A command line tool that puts the hash of a file into its filename.",
+  "bin": "bin/hash-filename",
+  "preferGlobal": true,
+  "repository": "lydell/hash-filename",
+  "homepage": "https://github.com/lydell/hash-filename",
+  "bugs": "https://github.com/lydell/hash-filename/issues",
+  "keywords": [
+    "cli",
+    "command line",
+    "tool",
+    "hash",
+    "filename",
+    "cache bust"
+  ],
+  "scripts": {
+    "test": "mocha --compilers coffee:coffee-script",
+    "prepublish": "rm -rf lib && coffee --bare --output lib/ src/"
+  },
+  "dependencies": {
+    "commander": "~2.0.0",
+    "ucurry": "0.0.1",
+    "async-each": "~0.1.3"
+  },
+  "devDependencies": {
+    "chai": "~1.8.0",
+    "mocha": "~1.13.0",
+    "coffee-script": "~1.6.3",
+    "sinon-chai": "~2.4.0",
+    "sinon": "~1.7.3"
+  }
+}
