@@ -26,9 +26,9 @@ describe "cli", ->
 		writeFile.reset()
 		writeFile.resetBehavior()
 
-		delete require.cache[require.resolve("../lib/cli")]
+		delete require.cache[require.resolve("../src/cli")]
 		delete require.cache[require.resolve("commander")]
-		cli = require "../lib/cli"
+		cli = require "../src/cli"
 		@exec = exec.bind(undefined, cli)
 
 

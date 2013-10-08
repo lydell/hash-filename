@@ -17,7 +17,7 @@ see <http://www.gnu.org/licenses/>.
 
 path = require "path"
 {expect, sinon, readFile, writeFile} = require "./common"
-{copy, hash, insertAfterFilename, createObject} = require "../lib/helpers"
+{copy, hash, insertAfterFilename, createObject} = require "../src/helpers"
 
 
 describe "copy", ->
