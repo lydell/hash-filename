@@ -16,8 +16,7 @@
     "cache bust"
   ],
   "scripts": {
-    "test": "mocha",
-    "prepublish": "rm -f lib/* && coffee -cbo lib/ src/"
+    "test": "mocha"
   },
   "dependencies": {
     "commander": "~2.0.0",
