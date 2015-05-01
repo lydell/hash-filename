@@ -1,5 +1,9 @@
 [![Build Status](https://travis-ci.org/lydell/hash-filename.png?branch=master)](https://travis-ci.org/lydell/hash-filename)
 
+**Deprecated.** Please use [hashmark] instead.
+
+[hashmark]: https://github.com/keithamus/hashmark/
+
 Overview
 ========
 
